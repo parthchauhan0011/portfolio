@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ERP and ecommerce solution strategy, a case study by Parth Chauhan</title>
+<meta name="description" content="A solution strategy for a jewellery retailer: Shopify, a custom ERP and an AI agent on WhatsApp, scoped requirement by requirement before anything was promised.">
+<link rel="canonical" href="https://parthchauhan0011.github.io/portfolio/work/erp-ecommerce-blueprint/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://parthchauhan0011.github.io/portfolio/work/erp-ecommerce-blueprint/">
+<meta property="og:title" content="ERP and ecommerce solution strategy, a case study by Parth Chauhan">
+<meta property="og:description" content="A solution strategy for a jewellery retailer: Shopify, a custom ERP and an AI agent on WhatsApp, scoped requirement by requirement before anything was promised.">
+<meta property="og:image" content="https://parthchauhan0011.github.io/portfolio/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F7F8FB">
+<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../../assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../style.css">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<a class="skip button-sm" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="tick1" viewBox="0 0 22 14"><path d="M3 7.5 7 11.5 15 2.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="tick2" viewBox="0 0 22 14"><path d="M1.5 7.5 5.5 11.5 13.5 2.5M9 11.5 10 12.3 20 2.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 256 256" fill="currentColor"><path d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 256 256" fill="currentColor"><path d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"/></symbol>
+  <symbol id="i-left" viewBox="0 0 256 256" fill="currentColor"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></symbol>
+  <symbol id="i-right" viewBox="0 0 256 256" fill="currentColor"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></symbol>
+  <symbol id="i-download" viewBox="0 0 256 256" fill="currentColor"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 256 256" fill="currentColor"><path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 256 256" fill="currentColor"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"/></symbol>
+</svg>
+<header class="nav">
+  <a class="mark title-3" href="../../index.html" aria-label="Parth Chauhan, home">Parth Chauhan <span class="ticks" id="markTicks"><svg aria-hidden="true"><use href="#tick2"/></svg></span></a>
+  <nav class="menu" aria-label="Main">
+      <a class="title-4" href="../../index.html#product" data-sec="product">Product</a>
+      <a class="title-4" href="../../index.html#work" data-sec="work" aria-current="page">Impact</a>
+      <a class="title-4" href="../../index.html#experience" data-sec="experience">Experience</a>
+      <a class="title-4" href="../../index.html#faq" data-sec="faq">FAQ</a>
+      <a class="title-4" href="../../assets/Parth_Chauhan_Resume_2026.pdf" download>Resume (PDF)</a>
+  </nav>
+  <a class="btn btn-primary button-sm nav-cta" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0IzHjZF9kIQgnygQaJk8317naw1SecjoNVMDC4TMwkH61IZy53_1OORd0aK--MWEzEFR510-gq?gv=true" target="_blank" rel="noopener">Book a call</a>
+  <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark mode"><svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg></button>
+  <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="sheet"><span class="bars" aria-hidden="true"><span></span><span></span></span></button>
+</header>
+<div class="sheet" id="sheet" inert>
+  <nav aria-label="Main">
+      <a class="heading-4" href="../../index.html#product" data-sec="product">Product</a>
+      <a class="heading-4" href="../../index.html#work" data-sec="work" aria-current="page">Impact</a>
+      <a class="heading-4" href="../../index.html#experience" data-sec="experience">Experience</a>
+      <a class="heading-4" href="../../index.html#faq" data-sec="faq">FAQ</a>
+      <a class="heading-4" href="../../assets/Parth_Chauhan_Resume_2026.pdf" download>Resume (PDF)</a>
+  </nav>
+  <a class="btn btn-primary button-md" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0IzHjZF9kIQgnygQaJk8317naw1SecjoNVMDC4TMwkH61IZy53_1OORd0aK--MWEzEFR510-gq?gv=true" target="_blank" rel="noopener">Book a 15 minute call</a>
+</div>
+<main id="main">
+  <section class="cs-hero">
+    <div class="wrap">
+      <a class="back body-5" href="../../index.html#work"><svg class="icon" aria-hidden="true"><use href="#i-left"/></svg>Back to the portfolio</a>
+      <div class="cs-hero-grid">
+        <h1 class="heading-1">ERP and ecommerce solution strategy</h1>
+        <p class="lede title-1 muted">A solution strategy for a jewellery retailer: Shopify, a custom ERP and an AI agent on WhatsApp, scoped requirement by requirement before anything was promised.</p>
+      </div>
+      <dl class="card cs-meta"><div><dt class="caption-3 muted">Type</dt><dd class="body-5">Solution strategy</dd></div><div><dt class="caption-3 muted">Status</dt><dd class="body-5"><span class="ticks"><svg aria-hidden="true"><use href="#tick1"/></svg></span>Designed and scoped</dd></div><div><dt class="caption-3 muted">Sector</dt><dd class="body-5">Jewellery retail</dd></div><div><dt class="caption-3 muted">Built with</dt><dd class="body-5">Shopify, custom ERP</dd></div></dl>
+    </div>
+  </section>
+  <div class="wrap cs-figs one reveal"><figure><div class="card diagram"><svg viewBox="0 0 760 220" role="img" aria-label="Architecture: Shopify and a custom ERP connect to WhatsApp on Wati, with an AI agent answering customers">
+<defs><marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" class="d-arrow"/></marker></defs>
+<g font-size="14" text-anchor="middle">
+<rect x="20" y="20" width="170" height="60" rx="12" class="d-node"/><text x="105" y="47" class="d-t">Shopify</text><text x="105" y="65" class="d-sub" font-size="12">orders, catalogue</text>
+<rect x="20" y="140" width="170" height="60" rx="12" class="d-node"/><text x="105" y="167" class="d-t">Custom ERP</text><text x="105" y="185" class="d-sub" font-size="12">stock, customers</text>
+<rect x="290" y="75" width="180" height="70" rx="14" class="d-ink"/><text x="380" y="106" class="d-on" font-weight="700">WhatsApp on Wati</text><text x="380" y="126" class="d-on2" font-size="12">webhooks and APIs</text>
+<rect x="570" y="75" width="170" height="70" rx="14" class="d-hot"/><text x="655" y="106" class="d-t">AI agent</text><text x="655" y="126" class="d-hot-t" font-size="12">customer questions</text>
+</g>
+<path d="M190 55l98 40M190 170l98-40M470 110h98" class="d-line" marker-end="url(#m0)"/>
+</svg></div></figure></div>
+  <div class="wrap cs-body"><section class="reveal"><h2 class="heading-5">The problem</h2><div class="body-3"><p>Customer and order data sat in two systems. Before signing, both sides needed to know what was standard, what needed custom work and what it would cost.</p></div></section><section class="reveal"><h2 class="heading-5">What I built</h2><div class="body-3"><ul><li>A requirements map across Shopify, the custom ERP and the AI agent.</li><li>Each requirement labelled as out of the box, needing a workaround, depending on the customer's systems, or a real gap.</li><li>Implementation hours and support packs costed up front.</li></ul></div></section><section class="reveal"><h2 class="heading-5">Key decisions</h2><div class="body-3"><ul><li>Label every requirement before promising anything, so the proposal matched what the product could do.</li><li>Cost implementation and ongoing support separately, so pricing reflected the real effort.</li><li>Keep Shopify and the ERP as the systems of record and connect them to WhatsApp, rather than copying data into a new store.</li></ul></div></section><section class="reveal"><h2 class="heading-5">Result</h2><div class="body-3"><p>A scoping document and a costed implementation plan the sales team could price and the delivery team could build from. My part: discovery, solution architecture, scoping and costing.</p></div></section></div>
+  <nav class="wrap cs-next" aria-label="More case studies">
+    <a class="card" href="../solutions-team/index.html"><span class="caption-1 muted">Previous</span><span class="title-2">Building the solutions team at Wati</span></a>
+    <a class="card" href="../clinic-appointment-agent/index.html"><span class="caption-1 muted">Next</span><span class="title-2">Clinic appointment agent</span></a>
+  </nav>
+</main>
+<footer>
+  <div class="wrap foot caption-2 muted">
+    <span>Off the clock: esports, badminton, swimming, riding and travel. If nothing changes, nothing changes.</span>
+    <nav aria-label="Legal"><a href="../../privacy/index.html">Privacy and terms</a><span>© 2026 Parth Chauhan</span></nav>
+  </div>
+</footer>
+<script src="../../script.js"></script>
+</body>
+</html>
